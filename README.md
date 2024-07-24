@@ -1,6 +1,7 @@
 # Credit_Card_Fraud_Project
 This project covers credit card fraud and is meant to look at a dataset of transactions and predict whether it is fraudulent or not.
 There are 30 features in this dataset, each in a separate column. Features V1-V28 is result of a PCA Dimensionality reduction to protect user identities and sensitive information. The Time column details the number of seconds elapsed between this transaction and the first transaction in the dataset.
+The CSV included in this repository is a sampled version to reduce the file size. Here is the link to the original CSV: https://www.kaggle.com/code/mendozav/credit-card-fraud-detection-project/input 
 
 1. The data is biased. The label for the data is Class of transaction. This can take value 1 if fraudulent, else value 0. Value 0 are overwhelmingly large, representing 99.85% of the data. 
   
